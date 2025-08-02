@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* list-style: none; */
+    box-sizing: border-box;
+    
+}
+.container{
+   
+    width: 100vw;
+    height: 125vh;
+    border: solid black 3px;
+    border-radius: 10px;
+    overflow-y: none;
+ 
+}
+.navcontainer{
+   
+   background-color: rgb(190, 96, 182);
+   min-height: 80px;
+    
+}
+#navlist{
+    list-style: none;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    font-size: 2.5rem;
+    background: radial-gradient(circle,rgba(63, 94, 251, 1) 13%, rgba(106, 88, 218, 1) 33%, rgba(144, 83, 189, 1) 49%, rgba(252, 70, 107, 1) 58%);
+}
+#navlogo{
+    font-size:2.5rem;
+   
+}
+a{
+    text-decoration: none;
+}
+.img1{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    /* position: relative; */
+    /* overflow: none; */
+    transition-property: all;
+    transition: width 1s linear, height 0s linear;
+}
+ .img1:hover {
+         transform: scale(1.2);
+
+        
+ }
+#navclass{
+    display: flex;
+    gap: 30px;
+}
+ .footerbox{
+    display: flex;
+    height: 30px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 0, 170);
+    
+    
+ }
+ .contentbox{
+    width: 70%;
+    margin: auto;
+    border: solid black 2px ;
+    background-color: paleturquoise;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+ }
+ .item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .leftbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+ .rightbox{
+    display: flex;
+    flex-direction: row;
+    overflow: none;
+    position: relative;
+   
+ }
+ .overlay{
+    border: solid black 2px ;
+    background-color: aqua;
+    align-self: center;
+ } 
+    .rightbox .overlay{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    position:absolute;
+    top:0;
+    left:0;
+    opacity: 0.5;
+
+    height:100%;
+    width:100%;
+    background-color:rgb(221, 221, 227)
+    
+
+ } 
+ .rightbox .overlay:hover{
+    opacity: 0.1;               
+ }
+ 

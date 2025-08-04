@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    /* list-style: none; */
+  /* list-style: none; */
     box-sizing: border-box;
     
 }
@@ -102,15 +102,23 @@ a{
     position:absolute;
     top:0;
     left:0;
-    opacity: 0.5;
-
+    opacity: 0;
     height:100%;
     width:100%;
     background-color:rgb(221, 221, 227)
-    
-
  } 
- .rightbox .overlay:hover{
-    opacity: 0.1;               
- }
+  .rightbox .overlay:hover{
+   opacity: 0.5;
+   font-size: 25px;
+   /* rotate: 45deg; */
+  }
+  
+/* Ranjan Update */
+.rightbox:hover .img1 {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+/* .overlay:hover span{
+   rotate: 45deg;
+} */
  
